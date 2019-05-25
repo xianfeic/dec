@@ -1,0 +1,58 @@
+{
+    "details": {
+        "title": "ARK Bridgechain Deployment script.",
+        "syntax": "bridgechain.sh [argument] [-option]",
+        "author": "Alex Barnsley <alex@ark.io> & Brian Faust <hello@brianfaust.me>",
+        "version": "1.1.0"
+    },
+    "commands": [{
+        "command": "start-node",
+        "description": "Start the Node",
+        "method": "process_node_start"
+    }, {
+        "command": "stop-node",
+        "description": "Stop the Node",
+        "method": "process_node_stop"
+    }, {
+        "command": "restart-node",
+        "description": "Restart the Node",
+        "method": "process_node_restart"
+    }, {
+        "command": "logs-node",
+        "description": "Show the Node logs",
+        "method": "process_node_logs"
+    }, {
+        "command": "start-explorer",
+        "description": "Start the Explorer",
+        "method": "process_explorer_start"
+    }, {
+        "command": "stop-explorer",
+        "description": "Stop the Explorer",
+        "method": "process_explorer_stop"
+    }, {
+        "command": "restart-explorer",
+        "description": "Restart the Explorer",
+        "method": "process_explorer_restart"
+    }, {
+        "command": "install-node",
+        "description": "Install the Node",
+        "method": "app_install_node"
+    }, {
+        "command": "uninstall-node",
+        "description": "Uninstall the Node",
+        "method": "app_uninstall_node"
+    }, {
+        "command": "install-explorer",
+        "description": "Install the Explorer",
+        "method": "app_install_explorer"
+    }, {
+        "command": "uninstall-explorer",
+        "description": "Uninstall the Explorer",
+        "method": "app_uninstall_explorer"
+    }, {
+        "abbreviation": "-h",
+        "command": "help",
+        "description": "Output usage information",
+        "method": "help_me"
+    }]
+}
