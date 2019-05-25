@@ -50,7 +50,7 @@ app_install_node()
     createdb "$DATABASE_NAME"
 
     rm -rf "$BRIDGECHAIN_PATH"
-    git clone https://github.com/xianfeic/tgic-nodev2.0.1.git "$BRIDGECHAIN_PATH"
+    git clone https://github.com/xianfeic/tgcc.git "$BRIDGECHAIN_PATH"
     cd "$BRIDGECHAIN_PATH"
 
     npm install libpq
